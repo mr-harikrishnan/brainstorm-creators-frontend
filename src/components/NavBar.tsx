@@ -88,7 +88,7 @@ export default function Navbar() {
                 ? ' bg-white text-black hover:bg-white hover:text-black' 
                 : 'border-white bg-white text-black hover:bg-black hover:text-white'
             }`}>
-              <span className="relative font-medium">Get Started</span>
+              <span className="relative font-medium">Get In Touch</span>
             </button>
           </div>
 
@@ -150,7 +150,7 @@ export default function Navbar() {
                 ? 'border-black bg-black text-white hover:bg-white hover:text-black' 
                 : 'border-white bg-white text-black hover:bg-black hover:text-white'
             }`}>
-              Get Started
+              Get In Touch
             </button>
           </div>
         </div>
