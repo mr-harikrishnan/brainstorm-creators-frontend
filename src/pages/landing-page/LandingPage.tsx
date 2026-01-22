@@ -1,5 +1,5 @@
 import HomeSection from "../../components/sections/HomeSection";
-import About from "../../About";
+import About from "../../components/sections/AboutSection";
 import Navbar from "../../components/NavBar";
 import TargetCursor from "@/components/TargetCursor";
 
