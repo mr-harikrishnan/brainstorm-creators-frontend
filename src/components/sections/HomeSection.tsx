@@ -1,8 +1,8 @@
 import LightRays from "@/components/LightRays";
-import homeScreenBg from "../assets/images/homescreenbg.png";
+import homeScreenBg from "../../assets/images/homescreenbg.png";
 import TargetCursor from "@/components/TargetCursor";
 
-const HomeScreen = () => {
+const HomeSection = () => {
   return (
     <div className="relative h-dvh w-full bg-black text-white overflow-hidden flex flex-col">
       <TargetCursor
@@ -70,4 +70,4 @@ const HomeScreen = () => {
   );
 };
 
-export default HomeScreen;
+export default HomeSection;

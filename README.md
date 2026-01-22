@@ -71,3 +71,25 @@ export default defineConfig([
   },
 ])
 ```
+
+my folder structure
+
+src/
+├── assets/
+│   └── images/
+│       └── homescreenbg.png
+├── components/
+│   ├── LightRays.tsx
+│   └── TargetCursor.tsx
+├── pages/
+│   ├── estimation-page/
+│   │   └── EstimationPage.tsx
+│   └── landing-page/
+│       ├── About.tsx
+│       ├── HomeSection.tsx      <-- Renamed from HomeScreen.tsx
+│       └── LandingPage.tsx      <-- Container for HomeSection & About
+├── App.css
+├── App.tsx
+├── main.tsx
+└── vite-env.d.ts
+
