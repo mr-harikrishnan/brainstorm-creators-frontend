@@ -38,11 +38,11 @@ const HomeSection = () => {
             <div className="h-px w-8 bg-linear-to-l from-transparent to-cyan-400" />
           </div>
 
-          <div className="text-center space-y-2">
-            <h1 className="cursor-target text-5xl xs:text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-tighter">
+          <div className="text-center space-y-2 group">
+            <h1 className="cursor-target text-5xl xs:text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-tighter transition-all duration-500 hover:tracking-wide hover:text-cyan-400 hover:drop-shadow-[0_0_30px_rgba(34,211,238,0.5)]">
               BRAINSTORM
             </h1>
-            <h1 className="cursor-target text-4xl xs:text-5xl sm:text-7xl md:text-8xl lg:text-8xl font-bold tracking-tighter bg-linear-to-b from-white via-gray-200 to-gray-600 bg-clip-text text-transparent">
+            <h1 className="cursor-target text-4xl xs:text-5xl sm:text-7xl md:text-8xl lg:text-8xl font-bold tracking-tighter bg-linear-to-b from-white via-gray-200 to-gray-600 bg-clip-text text-transparent transition-all duration-500 hover:scale-105 hover:from-cyan-400 hover:via-cyan-300 hover:to-white hover:drop-shadow-[0_0_30px_rgba(34,211,238,0.5)]">
               CREATORS
             </h1>
           </div>
