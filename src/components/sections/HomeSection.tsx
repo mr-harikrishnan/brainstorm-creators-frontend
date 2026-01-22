@@ -1,16 +1,10 @@
 import LightRays from "@/components/LightRays";
 import homeScreenBg from "../../assets/images/homescreenbg.png";
-import TargetCursor from "@/components/TargetCursor";
 
 const HomeSection = () => {
   return (
     <div className="relative h-dvh w-full bg-black text-white overflow-hidden flex flex-col">
-      <TargetCursor
-        spinDuration={2}
-        hideDefaultCursor
-        parallaxOn
-        hoverDuration={0.2}
-      />
+      
 
       {/* Background Image */}
       <div
